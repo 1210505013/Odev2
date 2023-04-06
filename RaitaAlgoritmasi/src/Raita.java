@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class Raita {
     public static void main(String[] args) {
-        String fileName = "C:\\Users\\muhar\\OneDrive\\Masaüstü\\alice_in_wonderland.txt";
+        String fileName = <Buraya Dosya Yolu Girilecek>;
         String[] searchWords = {"upon", "sigh", "Dormouse", "jury-box", "swim"};
         Set<String> wordSet = new HashSet<>(Arrays.asList(searchWords));
         Map<String, Integer> wordCountMap = new HashMap<>();
