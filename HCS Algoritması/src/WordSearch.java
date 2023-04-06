@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class WordSearch {
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\muhar\\OneDrive\\Masaüstü\\alice_in_wonderland.txt";
+        String filePath =<dosya yolu buraya girilmeli>;
         String[] keywords = {"upon", "sigh", "Dormouse", "jury-box", "swim"};
         Map<String, Integer> keywordCount = new HashMap<>();
         for (String keyword : keywords) {
